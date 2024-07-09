@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(31, 30,30);
+    font-family : 'Poppins', sans-serif;
+}
+#Sabout {
+    text-align: center;
+    font-size: 1rem; 
+    background-color: plum;
+    margin: auto 15rem;
+    border-radius: 6px;
+    padding: 1rem;
+}
+#Sabout h2{
+    color: aliceblue;
+}
+#Sabout p{
+    color: black;
+}
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: rgb(234, 234, 234);
+    padding: 1rem;
+    border-radius: 6px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+textarea{
+    resize: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+label{
+    margin-bottom: 0.5rem;
+
+}
+input,textarea,select{
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+    font: inherit;
+    border: 1px solid rgb(184, 184,184);
+    padding: 0.25rem;
+    color: rgb(61, 65, 65);
+}
+input:focus,textarea:focus{
+    background-color: rgb(218, 225, 232);
+}
+button{
+    display: block;
+    font: inherit;
+    background-color: rgb(45, 135, 238);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+button:hover{
+    background-color: rgb(68, 166, 247);
+    border-color: rgb(70, 91, 208);
+}
+.form-control-inline{
+    display: flex;
+}
+.form-control-inline input{
+   width: auto;
+}

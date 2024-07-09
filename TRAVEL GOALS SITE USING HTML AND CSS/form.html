@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body> 
+    <div id="Sabout">
+        <h2>About</h2>
+        <p>This Site is for you to move the whole world without excepting to money, 
+            we provide you great journey to explore new places.
+            we also provide you great 3 times food ,flight booking 
+            ,room booking with our combo pack at just RS.50,000.
+        </p>
+    </div>
+    <h1>Required Details</h1>
+    <form action="/" method="Get" >
+        <section>
+            <h2>Your Personal Details</h2>
+            <ul>
+                <li>
+                    <label for="user-name">NAME</label>
+                    <input type="text" name="user-name" id="user-name" required placeholder="Raj kumar">
+                </li>
+                <li>
+                    <label for="user-email">Email</label>
+                    <input type="email" name="user-email" id="user-email" required>
+                </li>
+                <li>
+                    <label for="userpassword">Password</label>
+                    <input type="password" name="user-password" id="userpassword" required>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2>More details</h2>
+            <ul>
+                <li>
+                    <label for="userage">Age</label>
+                    <input type="number" step="1" name="user-age" id="userage" required min="18" max="100">
+                    
+                    
+                </li>
+                <li>
+                    <label for="userdate">Brithdate</label>
+                    <input type="date" name="user-date" id="userdate" required min="1921-01-01" max="2003-12-31">
+                </li>
+                <li>
+                        <label for="rating">Rating out of 5 </label>
+                        <select name="rating" id="rating">
+                            <option value="number 1">1</option>
+                            <option value="number 2">2</option>
+                            <option value="number 3">3</option>
+                            <option value="number 4">4</option>
+                            <option value="number 5">5</option>
+                        </select>
+                </li>
+            </ul>
+        </section>
+        <ul>
+            <li>
+                    <label for="textarea">Your's Feedback</label>
+                    <textarea name="Feedback" id="textarea" cols="10" rows="10"></textarea>
+            </li>
+        </ul>
+        <section>
+            <ul>
+        <h2>How you verify your account</h2>
+            <li class="form-control-inline">
+               <input type="radio" name="verify" id="user-message" value="message">
+               <label for="user-message">Via a Message</label>
+            </li>
+            <li class="form-control-inline">
+               <input type="radio" name="verify" id="user-email" value="email">  
+               <label for="user-email">Via a Email</label>
+            </li>
+            <li class="form-control-inline">
+               <input type= "radio" name="verify" id="user-number" value="number">
+               <label for="user-number">Via a Number</label>
+            </li>
+            </ul>   
+        </section>
+        <section>
+            <h2>How i contact you ?</h2>
+             <ul>
+                    <li class="form-control-inline">
+                        <input type="checkbox" id="Contact-phone" name="terms" value="phone" required>
+                        <label for="Contact-phone">Contact via phone</label>
+                    </li>
+                       <li class="form-control-inline">
+                        <input type="checkbox" id="Contact-message" name="terms" value="email" required>
+                        <label for="Contact-message">Contact via message</label>
+                       </li>
+             </ul>
+        </section>
+        <hr>
+        <section>
+            <ul>
+                <li class="form-control-inline">
+                    <input type="checkbox" name="terms" required>
+                  <label for="terms-condition">Agree to terms?</label>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <button type="submit">SUBMIT</button>
+        </section> 
+    </form>
+</body>
+</html>
